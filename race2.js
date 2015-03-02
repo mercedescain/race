@@ -3,6 +3,7 @@
 
  $(document).ready(function(){
 
+$('#start').click(function() {
 var Animal = function(s, f, n){
   this.speed = s;
   this.focus = f;
@@ -64,6 +65,7 @@ if (corgi.position > turtle.position && rabbit.position){
     })
   };
   raceResult();
+});
 
 });
 
